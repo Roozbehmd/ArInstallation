@@ -136,11 +136,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/SculptureOnImageTarget.loader.js";
+        const loaderUrl = buildUrl + "/SculptureInstant.loader.js";
         const config = {
-            dataUrl: buildUrl + "/SculptureOnImageTarget.data.unityweb",
-            frameworkUrl: buildUrl + "/SculptureOnImageTarget.framework.js.unityweb",
-            codeUrl: buildUrl + "/SculptureOnImageTarget.wasm.unityweb",
+            dataUrl: buildUrl + "/SculptureInstant.data.unityweb",
+            frameworkUrl: buildUrl + "/SculptureInstant.framework.js.unityweb",
+            codeUrl: buildUrl + "/SculptureInstant.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "AR Installation",
