@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>AR Installation</title>
+    <title>ZAPPAR FINAL</title>
     <style>
         html {
             box-sizing: border-box;
@@ -136,14 +136,14 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/QRCodeWithKesho.loader.js";
+        const loaderUrl = buildUrl + "/01.loader.js";
         const config = {
-            dataUrl: buildUrl + "/QRCodeWithKesho.data.unityweb",
-            frameworkUrl: buildUrl + "/QRCodeWithKesho.framework.js.unityweb",
-            codeUrl: buildUrl + "/QRCodeWithKesho.wasm.unityweb",
+            dataUrl: buildUrl + "/01.data.gz",
+            frameworkUrl: buildUrl + "/01.framework.js.gz",
+            codeUrl: buildUrl + "/01.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
-            productName: "AR Installation",
+            productName: "ZAPPAR FINAL",
             productVersion: "0.1",
         };
 
